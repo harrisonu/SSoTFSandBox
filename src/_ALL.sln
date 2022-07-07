@@ -25,7 +25,11 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution 
 		.editorconfig = .editorconfig
 	EndProjectSection
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Visualizer", "Visualizer\Visualizer.csproj", "{525D1C0F-EEF9-4CC6-9B2A-B68B281AEBBF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Visualizer", "Visualizer\Visualizer.csproj", "{525D1C0F-EEF9-4CC6-9B2A-B68B281AEBBF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ClientConsole", "ClientConsole\ClientConsole.csproj", "{36A0097C-8D72-4DAF-A7E6-904659832E39}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SSToFDemoPublisher", "SSToFDemoPublisher\SSToFDemoPublisher.csproj", "{62468AEF-AF9D-4DE7-9DC5-8EF668431021}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -91,6 +95,22 @@ Global
 		{525D1C0F-EEF9-4CC6-9B2A-B68B281AEBBF}.Release|Any CPU.Build.0 = Release|Any CPU
 		{525D1C0F-EEF9-4CC6-9B2A-B68B281AEBBF}.Release|x86.ActiveCfg = Release|Any CPU
 		{525D1C0F-EEF9-4CC6-9B2A-B68B281AEBBF}.Release|x86.Build.0 = Release|Any CPU
+		{36A0097C-8D72-4DAF-A7E6-904659832E39}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{36A0097C-8D72-4DAF-A7E6-904659832E39}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{36A0097C-8D72-4DAF-A7E6-904659832E39}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{36A0097C-8D72-4DAF-A7E6-904659832E39}.Debug|x86.Build.0 = Debug|Any CPU
+		{36A0097C-8D72-4DAF-A7E6-904659832E39}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{36A0097C-8D72-4DAF-A7E6-904659832E39}.Release|Any CPU.Build.0 = Release|Any CPU
+		{36A0097C-8D72-4DAF-A7E6-904659832E39}.Release|x86.ActiveCfg = Release|Any CPU
+		{36A0097C-8D72-4DAF-A7E6-904659832E39}.Release|x86.Build.0 = Release|Any CPU
+		{62468AEF-AF9D-4DE7-9DC5-8EF668431021}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62468AEF-AF9D-4DE7-9DC5-8EF668431021}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62468AEF-AF9D-4DE7-9DC5-8EF668431021}.Debug|x86.ActiveCfg = Debug|Any CPU
+		{62468AEF-AF9D-4DE7-9DC5-8EF668431021}.Debug|x86.Build.0 = Debug|Any CPU
+		{62468AEF-AF9D-4DE7-9DC5-8EF668431021}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62468AEF-AF9D-4DE7-9DC5-8EF668431021}.Release|Any CPU.Build.0 = Release|Any CPU
+		{62468AEF-AF9D-4DE7-9DC5-8EF668431021}.Release|x86.ActiveCfg = Release|Any CPU
+		{62468AEF-AF9D-4DE7-9DC5-8EF668431021}.Release|x86.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,7 +120,7 @@ Global
 		{4F39794E-4A3F-4E73-9D4D-7DF6D65A311C} = {C8EE441C-34FB-412A-B6C8-E6D346C74CCC}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
 		SolutionGuid = {8A3A8C20-58A5-453B-8479-29F773A6E9AE}
+		EnterpriseLibraryConfigurationToolBinariesPathV6 = packages\EnterpriseLibrary.TransientFaultHandling.6.0.1304.0\lib\portable-net45+win+wp8
 	EndGlobalSection
 EndGlobal
